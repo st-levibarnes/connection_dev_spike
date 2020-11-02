@@ -9,7 +9,7 @@
 * git clone https://github.com/st-levibarnes/connection_dev_spike.git
 * cd connection-dev-spike
 * enter command: wsl
-* docker-compose up
+* docker-compose -d up
 * open browser and navigate to adminer by entering in the url http://127.0.0.1:8080
 * choose ms sql connector, enter mssql for server, sa for username, P@ssw0rd for password, and leave database blank
 * click on the createdb hyperlink
@@ -20,6 +20,7 @@
 * go back to command line and get container id: docker ps(look for image odoo:12)
 * docker exec -it <container id> bash
 * enter: odoo --stop-after-init --test-enable -d test -i connection_test_spike --test-tags connection_test_spike
+* when you all done you can recover resources by doing: docker-compose down --volumes
 
 ouput will contain something like:
 
