@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_connection_dev_spike_connection_dev_spike,connection_dev_spike.connection_dev_spike,model_connection_dev_spike_connection_dev_spike,,1,0,0,0
