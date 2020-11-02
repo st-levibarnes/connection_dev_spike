@@ -8,8 +8,16 @@
 
 * git clone
 * cd connection-dev-spike
+* enter command: wsl
 * docker-compose up
-* get container id: docker ps(look for image odoo:12)
+* open browser and navigate to adminer by entering in the url http://127.0.0.1:8080
+* choose ms sql connector, enter mssql for server, sa for username, P@ssw0rd for password, and leave database blank
+* click on the createdb hyperlink
+* enter in testdb and save
+* click on create table hyperlink, put test in the table name input, put test in the column name, make sure type is int, and click save
+* click on sql command and enter : INSERT INTO test (test) VALUES (1);
+* click on execute
+* go back to command line and get container id: docker ps(look for image odoo:12)
 * docker exec -it <container id> bash
 * enter: odoo --stop-after-init --test-enable -d test -i connection_test_spike --test-tags connection_test_spike
 
