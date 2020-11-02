@@ -6,7 +6,7 @@
 
 #instructions
 
-* git clone
+* git clone https://github.com/st-levibarnes/connection_dev_spike.git
 * cd connection-dev-spike
 * enter command: wsl
 * docker-compose up
