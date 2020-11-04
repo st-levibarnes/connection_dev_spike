@@ -1,14 +1,11 @@
 # pre-reqs
 
-* install wsl2: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-* install docker: https://docs.docker.com/docker-for-windows/install/
-* install git: https://desktop.github.com/
+* install docker: https://docs.docker.com/engine/install/ubuntu/
 
 # instructions
 
 * git clone https://github.com/st-levibarnes/connection_dev_spike.git
 * cd connection-dev-spike
-* enter command: wsl
 * docker-compose -d up
 * open browser and navigate to adminer by entering in the url http://127.0.0.1:8080
 * choose ms sql connector, enter mssql for server, sa for username, P@ssw0rd for password, and leave database blank
