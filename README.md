@@ -1,9 +1,16 @@
-# pre-reqs
+## ubuntu
 
 * install docker: https://docs.docker.com/engine/install/ubuntu/
 
+## windows
+
+* install wsl2: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+* install docker: https://docs.docker.com/docker-for-windows/install/
+* install git: https://desktop.github.com/
+
 # instructions
 
+(usl wsl if using windows)
 * git clone https://github.com/st-levibarnes/connection_dev_spike.git
 * cd connection-dev-spike
 * docker-compose -d up
